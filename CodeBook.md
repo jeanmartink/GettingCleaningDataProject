@@ -1,6 +1,6 @@
-Data Dictionary
+# Data Dictionary
 
-Activity
+### Activity
 	The activities performed by the subject. It has the following possible values:
 		WALKING
     WALKING_UPSTAIRS
@@ -9,10 +9,10 @@ Activity
     STANDING
     LAYING
 
-Subject
+### Subject
 	The subject who performed the activity. Its range is from 1 to 30.
 
-The next 66 columns are the average mean and average standard deviations of the measurements of each variable for each activity and each subject:
+### The next 66 columns are the average mean and average standard deviations of the measurements of each variable for each activity and each subject:
 
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
