@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Project
 Course Project for the Getting and Cleaning Data Course on Coursera
 
-The script makes use of the data.table library which would need to be loaded.
+The script *run_analysis.R* makes use of the data.table library which would need to be loaded.
 
 Using read.table, we read the variables names stored in the features file.
 We create a vector of the indexes of the measurements on the mean and standard deviation by taking a look at the features file and selecting only the measurements ending in mean() or std().
