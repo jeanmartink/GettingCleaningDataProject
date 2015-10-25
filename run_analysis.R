@@ -59,3 +59,4 @@ mergedsetDT <- data.table(mergedset)
 # average of the mean variable for each activity and for each subject
 avgByActBySubj <- mergedsetDT[,lapply(.SD,mean), .SDcols = 3:68, 
                                by = list(Activity,Subject)]
+avgByActBySubj
