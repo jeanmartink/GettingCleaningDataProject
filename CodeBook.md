@@ -1,6 +1,7 @@
 # Data Dictionary
 
 Activity
+
 The activities performed by the subject. It has the following possible values:
     * WALKING
     * WALKING_UPSTAIRS
